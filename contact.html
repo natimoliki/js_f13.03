@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ka">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phenilketonuria</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/334175045_1250179415927904_7310619301689981609_n-removebg-preview.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/fonts.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+  </head>
+  <body>
+    <header class="header-bg">
+      <div class="header-div">
+        <a href="index.html">
+          <img
+            class="logo-header"
+            src="images/334175045_1250179415927904_7310619301689981609_n-removebg-preview.png"
+            alt=""
+          />
+        </a>
+
+        <nav id="navBar">
+          <ul class="ul-item">
+            <li>
+              <a class="nav-a-item" href="index.html">მთავარი</a>
+            </li>
+            <li>
+              <a class="nav-a-item" href="about.html">ასოციაცია</a>
+            </li>
+            <li>
+              <a class="nav-a-item" href="production.html">დიეტოთერაპია</a>
+            </li>
+            <li>
+              <a class="nav-a-item active-page" href="contact.html">კონტაქტი</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div>
+          <i class="fa-sharp fa-solid fa-universal-access"></i>
+        </div>
+
+        <div class="burger" id="burgerBar">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <section class="contact-section">
+      <div class="inf-section">
+        <div class="left-inf">
+          <form class="form" action="" id="resgitration" method="post">
+            <div>
+              <input
+                class="input-element"
+                type="text"
+                name="username"
+                placeholder="მომხმარებლის სახელი"
+                id="usernamefield"
+              />
+              <p class="error-text" id="error-username"></p>
+            </div>
+            <div class="passfields">
+              <input
+                class="input-element"
+                type="password"
+                name="passw"
+                placeholder="პაროლი"
+                id="passwordfield"
+              />
+              <i class="fa-regular fa-eye" id="showIcon"></i>
+              <p class="error-text" id="error-passw"></p>
+            </div>
+            <div class="passfields">
+              <input
+                class="input-element"
+                type="password"
+                name="passw2"
+                placeholder="გაიმეორეთ პაროლი"
+                id="passwordfield2"
+              />
+              <i class="fa-regular fa-eye" id="showIcon2"></i>
+              <p class="error-text" id="error-passw2"></p>
+            </div>
+            <div>
+              <input
+                class="input-element"
+                type="email"
+                id="emailfield"
+                placeholder="ელ-ფოსტა"
+              />
+              <p class="error-text" id="error-email"></p>
+            </div>
+            <div>
+              <input type="radio" name="gender" class="radio-class" />
+              <label for="">მამრობითი</label>
+              <input type="radio" name="gender" class="radio-class" />
+              <label for="">მდედრობითი</label>
+              <p class="error-text" id="error-gender"></p>
+            </div>
+            <div>
+              <input type="checkbox" id="agree" name="check" />
+              <label for="agree">ვეთანხმები</label>
+              <p class="error-text" id="error-check"></p>
+            </div>
+
+            <div class="form-element">
+              <label for="usercountry"></label>
+              <select class="select" name="country" id="usercountry">
+                <option value="none" selected disabled hidden>ქვეყანა</option>
+                <option value="georgia">საქართველო</option>
+                <option value="germany">გერმანია</option>
+                <option value="unitedstates">ამერიკა</option>
+                <option value="georgia">ბელგია</option>
+                <option value="germany">ესპანეთი</option>
+                <option value="unitedstates">იტალია</option>
+              </select>
+            </div>
+
+            <div class="form-elements">
+              <label for="user-message"></label>
+              <textarea
+                name="message"
+                id="user-message"
+                class="textarea-element"
+                placeholder="შეტყობინება"
+              ></textarea>
+              <p class="error-text" id="error-message"></p>
+            </div>
+
+            <button class="btn-submit" type="submit">გაგზავნა</button>
+          </form>
+        </div>
+
+        <div class="right-inf">
+          <iframe
+            class="maps"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d625.5167959808495!2d44.7769151987942!3d41.77495210098837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40446d931853561f%3A0xb43954b9991901a8!2z4YOT4YOY4YOQ4YOR4YOU4YOi4YOY4YOhIOGDmeGDleGDmuGDlOGDleGDmOGDoSDhg5Thg6Dhg53hg5Xhg5zhg6Phg5rhg5gg4YOq4YOU4YOc4YOi4YOg4YOY!5e0!3m2!1ska!2sge!4v1690135967951!5m2!1ska!2sge"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="all-contact">
+        <span
+          >ელ-ფოსტა:
+          <a
+            class="link"
+            href="mailto:kidcohealth@alsc.ge?subject=The%20subject%20of%20the%20mail"
+            >kidcohealth@alsc.ge</a
+          >
+        </span>
+
+        <span
+          >ტელეფონი:
+
+          <a class="link" href="tel:032 225 17 12">032 225 17 12</a>
+        </span>
+
+        <span
+          >მისამართი:
+          <a
+            class="link"
+            href="https://goo.gl/maps/pD4qQgCPG5oamysk6"
+            target="_blank"
+            >კ. ჩაჩავას ქუჩა#1</a
+          >
+        </span>
+      </div>
+    </section>
+
+    <section class="people-sec">
+      <h2 class="h2-t">ორგანიზაციის წევრების შესახებ ინფორმაცია</h2>
+
+      <div class="post-wraper" id="postWraper">
+        <div class="overlay" id="overLay">
+          <div class="content" id="content"></div>
+          <div class="close" id="close">
+            <i class="fa-sharp fa-solid fa-circle-xmark"></i>
+          </div>
+        </div>
+
+        <div class="add-post" id="add"><i class="fa-solid fa-plus"></i></div>
+        <div class="overlay-add" id="addOverlay">
+          <form action="" id="formAddOverlay">
+            <input type="text" id="titleText" />
+            <button>ველის დამატება</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="users-sec">
+      <div class="container">
+        <h2 class="h2-t">პიროვნების ძებნა</h2>
+        <input type="text" id="filter" />
+        <ul id="result"></ul>
+      </div>
+    </section>
+
+
+    <section class="taskSection">
+      <div class="containertask">
+        
+        <div class="formtask">
+            <input type="text" class="input">
+            <input type="submit" class="add" value="add task">
+        </div>
+        <button class="reset">Clear All Tasks</button>
+        <div class="task"></div>
+    </div>
+
+    </section>
+
+    <footer class="footer-bg">
+      <div class="footer-c footer-flex">
+        <div class="soc-div1">
+          <a href="https://www.facebook.com/PkuGeorgia" target="_blank">
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+
+          <a
+            class="p1-footer"
+            href="https://www.facebook.com/PkuGeorgia"
+            target="_blank"
+            >საქართველოს მშობელთა ასოციაცია ფენილკეტონურიისთვის -PKU Georgia</a
+          >
+        </div>
+
+        <div class="soc-div2">
+          <a
+            href="https://www.facebook.com/groups/1129202247124143"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a
+            class="p1-footer"
+            href="https://www.facebook.com/groups/1129202247124143"
+            target="_blank"
+            >ფენილკოტონურიის მქონე ბავშვების მშობლები</a
+          >
+        </div>
+
+        <div class="soc-div3">
+          <p class="p1-footer">
+            P.S ფენილკოტონურიის მქონე ბავშვების მშობლები - ჯგუფი დახურულია.
+            გასაწევრიალებლად, გთხოვთ გამოაგზავნეთ მოწვევა.
+          </p>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <h2 class="h2-creator">&copy; ყველა უფლება დაცულია</h2>
+        <p class="p-creator">ვებ-გვერდი შექმნა ნათია მუმლაძემ</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
